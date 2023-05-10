@@ -26,20 +26,18 @@
     align-items: center;
     margin-left: auto;
     margin-right: auto;
-}
-
-.tecnologias li{
-    min-width: 60px;
+    overflow-x: auto;
+    padding: 0 20px;
 }
 
 @media(max-width:600px){
     .tecnologias ul{
         max-width: 450px;
         gap: 40px;
-        overflow-x: auto;
-        padding: 0 20px 20px 20px;
+
     }
     .tecnologias li{
-        min-width: 60px;
+        min-width: 50px;
+        flex: 1;
     }
 }

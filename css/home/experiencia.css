@@ -35,8 +35,8 @@
     min-width: 50px;
     flex: 1;
 }
-@media(max-width:600px){
+@media(max-width:400px){
     .tecnologias ul{
-        max-width: 450px;
+        max-width: 300px;
     }
 }

@@ -1,0 +1,60 @@
+.container{
+    box-sizing: border-box;
+    max-width: 1200px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.botao-1{
+    max-width: max-content;
+    font: 500 1.15rem / 1.2 'Roboto Slab', serif;
+    background: var(--cor-3);
+    border: 1.5px solid var(--cor-p1);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 16px 32px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.botao-1:hover{
+    background: linear-gradient(var(--cor-3),var(--cor-4));
+    transition: 0.6s;
+}
+
+.botao-2{
+    max-width: max-content;
+    font: 500 1.15rem / 1.2 'Roboto Slab', serif;
+    background: var(--cor-p1);
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 16px 32px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.botao-2:hover{
+    background: linear-gradient(var(--cor-p2),var(--cor-p3));
+    transition: 0.6s;
+}
+
+.redes-sociais{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 40px 0px;
+}
+
+.titulo{
+    font: 700 3rem / 1.2 'Roboto Slab', serif;
+    color: var(--cor-0);
+}
+
+span{
+    color: var(--cor-p1);
+}

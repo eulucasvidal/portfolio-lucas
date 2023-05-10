@@ -1,0 +1,36 @@
+.experiencia-bg{
+    background: var(--cor-4);
+}
+
+.experiencia{
+    display: grid;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    gap: 50px;
+}
+
+.experiencia h2{
+    content: '';
+    width: 80px;
+    height: 2px;
+    background: var(--cor-p1);
+}
+
+.experiencia div p{
+    padding-top: 20px;
+}
+
+.tecnologias{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media(max-width:800px){
+    .tecnologias{
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        -ms-overflow-style: -ms-autohiding-scrollbar;
+        position: relative;
+    }
+}

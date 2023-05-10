@@ -1,0 +1,41 @@
+.header-bg{
+    background: var(--cor-4);
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0px;
+}
+
+.header-menu{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+.header-menu li a:hover{
+    color: var(--cor-p1);
+    transition: 0.7s;
+}
+
+.menu-hamburguer{
+    display: none;
+
+}
+@media (max-width:800px){
+    .header-menu{
+        display: none;
+    }
+    .menu-hamburguer{
+        display: block;
+        max-width: max-content;
+        font: 500 1.15rem / 1.2 'Roboto Slab', serif;
+        background: var(--cor-p1);
+        border: none;
+        padding: 4px 8px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+}

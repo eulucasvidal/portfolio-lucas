@@ -20,17 +20,26 @@
     padding-top: 20px;
 }
 
-.tecnologias{
+.tecnologias ul{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-@media(max-width:800px){
-    .tecnologias{
+.tecnologias li{
+    min-width: 60px;
+}
+
+@media(max-width:600px){
+    .tecnologias ul{
+        max-width: 450px;
+        gap: 40px;
         overflow-x: auto;
-        -webkit-overflow-scrolling: touch;
-        -ms-overflow-style: -ms-autohiding-scrollbar;
-        position: relative;
+        padding: 0 20px 20px 20px;
+    }
+    .tecnologias li{
+        min-width: 60px;
     }
 }

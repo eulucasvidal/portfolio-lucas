@@ -11,6 +11,7 @@
 /* HOME */
 @import './home/introducao.css';
 @import './home/experiencia.css';
+@import './home/tecnologias-lista.css';
 @import './home/projetos.css';
 @import './home/sobre.css';
 @import './home/formacao.css';

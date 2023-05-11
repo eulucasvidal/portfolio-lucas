@@ -15,8 +15,13 @@
     gap: 32px;
 }
 
+.header-menu a{
+    padding: 5px 10px;
+}
+
 .header-menu li a:hover{
     color: var(--cor-p1);
+    border-bottom: 1px solid var(--cor-p1);
     transition: 0.7s;
 }
 

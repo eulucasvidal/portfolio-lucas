@@ -22,7 +22,7 @@
     text-align: center;
 }
 .sobre-conteudo-texto p{
-    padding-top: 40PX;
+    padding-top: 20px;
 }
 
 @media(max-width:800px){

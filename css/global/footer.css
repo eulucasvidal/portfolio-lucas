@@ -39,4 +39,7 @@
         text-align: center;
         gap: 40px;
     }
+    .contato-conteudo div .redes-sociais{
+        justify-content: center;
+    }
 }

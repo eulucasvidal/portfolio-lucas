@@ -8,16 +8,15 @@
 }
 
 .botao-1{
-    max-width: max-content;
     font: 500 1.15rem / 1.2 'Roboto Slab', serif;
     background: var(--cor-3);
-    border: 1.5px solid var(--cor-p1);
-    display: flex;
-    align-items: center;
-    gap: 10px;
+    color: var(--cor-0);
     padding: 16px 32px;
+    max-width: max-content;
+    border: 1.5px solid var(--cor-p1);
     border-radius: 10px;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .botao-1:hover{
@@ -25,22 +24,58 @@
     transition: 0.6s;
 }
 
-.botao-2{
-    max-width: max-content;
-    font: 500 1.15rem / 1.2 'Roboto Slab', serif;
-    background: var(--cor-p1);
-    border: none;
+.botao-1.seta{
     display: flex;
     align-items: center;
-    gap: 10px;
+}
+
+.botao-1.seta::after{
+    content: '';
+    display: inline-block;
+    width: 23px;
+    height: 11px;
+    margin-left: 12px;
+    background: url(../../img/icones/seta-branco.svg), no-repeat;
+}
+
+.botao-1.seta:hover::after{
+    transition: 0.7s;
+    transform: translateX(4px);
+}
+
+.botao-2{
+    font: 500 1.15rem / 1.2 'Roboto Slab', serif;
+    background: var(--cor-p1);
+    color: var(--cor-4);
     padding: 16px 32px;
+    max-width: max-content;
     border-radius: 10px;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .botao-2:hover{
     background: linear-gradient(var(--cor-p2),var(--cor-p3));
     transition: 0.6s;
+}
+
+.botao-2.download{
+    display: flex;
+    align-items: center;
+}
+
+.botao-2.download::after{
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 35px;
+    margin-left: 12px;
+    background: url(../../img/icones/icone-download.svg),no-repeat;
+}
+
+.botao-2.download:hover::after{
+    transition: 0.7s;
+    transform: translateY(4px);
 }
 
 .redes-sociais{

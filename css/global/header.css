@@ -25,15 +25,43 @@
     transition: 0.7s;
 }
 
-.menu-hamburguer{
+.menuMobile{
     display: none;
 
 }
+
+@media(max-width:1000px){
+    .header-menu{
+        gap: 10px;
+    }
+}
+
 @media (max-width:800px){
     .header-menu{
-        display: none;
+        display: block;
+        position: absolute;
+        width: 100%;
+        top: 100px;
+        right: 0px;
+        height: 0px;
+        background: linear-gradient(var(--cor-3),var(--cor-4));
+        z-index: 1000;
+        visibility: hidden;
+        overflow-y: hidden;
+        transition: .6s;
+        text-align: center;
     }
-    .menu-hamburguer{
+
+    .header-menu a{
+        display: grid;
+    }
+    #menu.active .header-menu{
+        height: 100vh;
+        visibility: visible;
+        overflow-y: auto;
+    }
+    
+    .menuMobile{
         display: block;
         max-width: max-content;
         font: 500 1.15rem / 1.2 'Roboto Slab', serif;

@@ -1,4 +1,4 @@
-const menuMobile = document.querySelector('#menu');
+const menuMobile = document.querySelector('.menuMobile');
 
 function toggleMenu (event){
     if(event.type === 'touchstart') event.preventDefaul();

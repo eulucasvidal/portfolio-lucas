@@ -88,6 +88,18 @@
 .titulo{
     font: 700 3rem / 1.2 'Roboto Slab', serif;
     color: var(--cor-0);
+    position: relative;
+}
+
+.detalhe::after{
+    content: '';
+    width: 80px;
+    height: 2px;
+    background: var(--cor-p1);
+    position: absolute;
+    box-sizing: border-box;
+    top: 60px;
+    left: 0px;
 }
 
 span{

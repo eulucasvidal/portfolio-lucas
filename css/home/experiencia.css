@@ -9,13 +9,6 @@
     gap: 50px;
 }
 
-.experiencia h2{
-    content: '';
-    width: 80px;
-    height: 2px;
-    background: var(--cor-p1);
-}
-
 .experiencia div p{
     padding-top: 20px;
     max-width: 100ch;

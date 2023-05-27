@@ -20,6 +20,7 @@ Esse projeto de portfólio é uma página web desenvolvida, para apresentar meus
 ## Front end
 - HTML
 - CSS - FlexBox e Grid Layout
+- Javascript
 
 # Autor
 

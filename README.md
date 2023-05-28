@@ -10,8 +10,7 @@ Esse projeto de portfólio é uma página web desenvolvida, para apresentar meus
 ![portfolio-mockup](https://github.com/eulucasvidal/portfolio-lucas/assets/127450536/427deef1-c029-4413-8ff9-2aedcd92fd59)
 
 
-## Layout web
-
+## Layout desktop
 ![portfolio-mockup-3](https://github.com/eulucasvidal/portfolio-lucas/assets/127450536/ac08affc-9a55-4f22-a160-dfb8d95090db)
 
 

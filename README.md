@@ -7,7 +7,8 @@ link do projeto - (https://eulucasvidal.github.io/portfolio-lucas/)
 Esse projeto de portfólio é uma página web desenvolvida, para apresentar meus principais projetos em um layout bem organizado. Desenvolvi a estrutura com HTML e  CSS, mas este projeto ainda não está finalizado, estou ansioso para implementar recursos interativos com JavaScript em breve.
 
 ## Layout mobile
-![portfolio-mockup](https://github.com/eulucasvidal/portfolio-lucas/assets/127450536/6ceeac86-e527-41f2-aacc-e7657728c8c3)
+![portfolio-mockup](https://github.com/eulucasvidal/portfolio-lucas/assets/127450536/427deef1-c029-4413-8ff9-2aedcd92fd59)
+
 
 ## Layout web
 ![Web 1]

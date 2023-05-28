@@ -11,9 +11,8 @@ Esse projeto de portfólio é uma página web desenvolvida, para apresentar meus
 
 
 ## Layout web
-![Web 1]
 
-![Web 2]
+![portfolio-mockup-3](https://github.com/eulucasvidal/portfolio-lucas/assets/127450536/ac08affc-9a55-4f22-a160-dfb8d95090db)
 
 
 # Tecnologias utilizadas

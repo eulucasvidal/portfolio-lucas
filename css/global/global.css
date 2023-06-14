@@ -23,3 +23,14 @@ img{
     display: block;
     height: auto;
 }
+
+.js .js-scroll{
+    opacity: 0;
+    transition: .6s;
+    transform: translate3d(-30,0,0);
+}
+
+.js .js-scroll.ativo{
+    opacity: 1;
+    transform: translate3d( 0 ,0 ,0);
+}
